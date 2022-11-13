@@ -12,12 +12,8 @@ app.use(express.static('public'));
 // routes
 app.get('/', (req, res) => res.send('Navigate to /send or /routes'));
 
-app.get('/send', (req, res) =>
-  res.sendFile(path.join(__dirname, 'public/sendFile.html'))
-);
-
-app.get('/routes', (req, res) =>
-  res.sendFile(path.join(__dirname, 'public/routes.html'))
+app.get('/notes', (req, res) =>
+  res.sendFile(path.join(__dirname, 'public/notes.html'))
 );
 
 // keep your web service awake and listening
