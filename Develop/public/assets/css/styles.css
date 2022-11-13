@@ -5,6 +5,10 @@ body {
   padding: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .save-note {
   display: none;
 }
@@ -16,6 +20,9 @@ body {
   cursor: pointer;
 }
 
+.text-input{
+  float: left;
+}
 .note-textarea,
 .note-title {
   color: #000000;
@@ -41,7 +48,9 @@ body {
   color: #757575;
 }
 
-.list-container .card {
+
+
+.list- .card {
   height: calc(100vh - 70px);
   border-bottom: none;
   border-bottom-right-radius: 0;
@@ -50,6 +59,7 @@ body {
 
 .list-container {
   padding-left: 0;
+  float:left;
 }
 
 .list-container .list-group,
