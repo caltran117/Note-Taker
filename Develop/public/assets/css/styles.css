@@ -51,7 +51,10 @@ body {
 .list-group {
   color: rgb(233, 185, 14);
   width: 500px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+}
+
+.section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
