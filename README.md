@@ -2,7 +2,7 @@
 
 ## Description
 
-this project was to create and provide a way to save notes or to-do list
+This project was to create and provide a way to save notes or to-do list
 
 
 ## Usage
