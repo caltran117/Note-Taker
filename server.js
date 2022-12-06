@@ -4,7 +4,7 @@ const notes = require('./db/db.json')
 // creating the web server obj for organizing
 const app = express();
 // setting computer port number for service
-const PORT = 3334;
+const PORT = process.env.PORT || 3334;
 
 // installing middleware
 app.use(express.json())
